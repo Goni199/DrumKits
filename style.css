@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    background-color: #283149;
+}
+h1{
+    color: white;
+    font-family: "Arvo", cursive;
+    text-shadow: 5px 0px #DA0463;    /* Pink Text Shadow 5px X offset and 0px Y offset */
+    font-weight: 900;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0px;
+    margin-top: 80px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drumContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.drum{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 10px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 5rem;
+    color: #ff0073;
+    text-shadow: 5px 3px white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w{
+    background-image: url("./images/tom1.png");
+}
+.a{
+    background-image: url("./images/tom2.png");
+}
+.s{
+    background-image: url("./images/tom3.png");
+}
+.d{
+    background-image: url("./images/tom4.png");
+}
+.j{
+    background-image: url("./images/crash.png");
+}
+.k{
+    background-image: url("./images/kick.png");
+}
+.l{
+    background-image: url("./images/snare.png");
+}
+.footer{
+    color: white;
+    font-size: 20px;
+    font-family: "Arvo", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onClick{
+    opacity: 0.5;
+}
